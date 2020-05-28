@@ -12,6 +12,7 @@ Class {
 Task1 >> setUp [
 	"Hooks that subclasses may override to define the fixture of test."
 	super setUp.
+	ReflectivityExamples2 new removeNewMethodWithInstVarAccess.
 	metalink := MetaLink new.	
 	nodes := metalink nodes
 ]
