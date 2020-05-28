@@ -36,7 +36,7 @@ Task1 >> testCollectionContents [
 		toSlotNamed: #instVar
 		option: #all.
 
-	"There should 4 nodes in the metalink nodes collection"
+	"There should be 4 nodes in the metalink nodes collection"
 	self assert: nodes size equals: 4.
 
 	"We generate a method with 4 four more accesses to #instVar"
